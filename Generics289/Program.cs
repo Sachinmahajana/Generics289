@@ -16,6 +16,12 @@
                 case 2:
                     FindMaxminFloat.FindMaxMinFloatFunction(50.3f, 40.2f, 30.4f);
                     break;
+                case 3:
+                    FindMaxminstring.FindMaxstringFunction("Apple", "Peach", "banana");
+                    break;
+                default:
+                    Console.WriteLine("Please select the program given below");
+                    break;
             }
         }
     }
