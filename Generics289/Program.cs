@@ -19,6 +19,12 @@
                 case 3:
                     FindMaxminstring.FindMaxstringFunction("Apple", "Peach", "banana");
                     break;
+                case 4:
+                    FindMaxvalue<int>.Testmaximum(30, 40, 50 );
+                    FindMaxvalue<float>.Testmaximum(50.4f, 40.2f, 33.6f);
+                    FindMaxvalue<string>.Testmaximum("Suresh", "Ajay", "Nikam");
+                    break;
+
                 default:
                     Console.WriteLine("Please select the program given below");
                     break;
